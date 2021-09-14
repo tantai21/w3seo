@@ -1,0 +1,365 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+:root{
+    --vang:#f1b609;
+    --xam:#41696c;
+    --font:#3f5d72;
+}
+.top{
+    display: flex;
+    height: 118px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 108px;
+}
+.topContent ul{
+    display: flex;
+}
+.logo img{
+    width: 100px;
+    height: 100px;
+}
+.topSearch{
+}
+
+.topContent ul li{
+    padding: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 14px;
+}
+.topContent ul li:hover,
+.topContent ul li:first-child{
+    color: var(--vang);
+}
+
+
+
+.background{
+    background: 
+    url(https://websitehcm.com/wp-content/uploads/2020/10/websitehcm-banner.jpg)
+    center center / cover no-repeat;
+    height: 600px;
+    text-align: center;
+    position: relative;
+    color: #fff;
+}
+.background::before{
+    content: "";
+    background: blue;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 3%;
+    height: 100%;
+    position: absolute;
+}
+.contentBackground{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+}
+.contentBackground a{
+    text-decoration: none;
+    color: inherit;
+}
+.contentBackground h1{
+    margin-bottom: 24px;
+    font-size: 50px;
+}
+.contentBackground p{
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+
+.contentBackground a:first-of-type{
+   padding: 15px 19px;
+   background-color:  var(--vang);
+   font-weight: 700;
+   font-size: 16px;
+   border-radius: 4px;
+
+}
+.contentBackground a:last-of-type{
+    margin-left: 15px;
+    padding: 15px 25px;
+    border: 2px solid white;
+    font-weight: 700;
+    border-radius: 4px;
+}
+
+.contentBackground a:hover{
+    opacity: 85%;
+    
+}
+
+
+
+
+.service{
+    width: 100%;
+    height: 850px;
+    padding: 0 100px;
+    display: block;
+}
+.service1{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.background-service1{
+    background: url(https://websitehcm.com/wp-content/uploads/2020/10/website-design.jpg )
+    center center / cover 
+    ;
+    width: 553px;
+    height: 370px;
+}
+
+.content-service1 span{
+    color: #7bc3f4;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 15px;
+    display: block;
+    margin-bottom: 20px;
+}
+.content-service1 h1{
+    font-size: 36px;
+    color: var(--xam);
+    margin-bottom: 20px;
+
+}
+.content-service1 p{
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: var(--font);
+}
+.content-service1 a{
+    text-decoration: none;
+    color: white;
+    padding: 12px 21px;
+    background-color: var(--vang) ;
+    font-weight: 900;
+    line-height: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+.background-service2{
+    background: url(https://websitehcm.com/wp-content/uploads/2020/10/website-social.jpg )
+    center center / cover 
+    ;
+    width: 937px;
+    height: 380px;
+    margin-left: -118px;
+}
+
+
+.service2{
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+.content-service2{
+    
+    margin-left: 30px;
+}
+.content-service2 span{
+    color: #7bc3f4;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 15px;
+    display: block;
+    margin-bottom: 20px;
+}
+.content-service2 h1{
+    font-size: 36px;
+    color: var(--xam);
+    margin-bottom: 20px;
+
+}
+.content-service2 p{
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: var(--font);
+}
+.content-service2 a{
+    text-decoration: none;
+    color: white;
+    padding: 12px 21px;
+    background-color: var(--vang) ;
+    font-weight: 900;
+    line-height: 50px;
+}
+
+
+
+.slogan{
+    max-width: 650px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-size: 20px;
+    color: var(--font);
+    line-height: 33px;
+    
+}
+.hr1{
+    background-color: #ff664e;
+    color: red;
+    height: 3px;
+    max-width: 90px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 50px 0px;
+}
+
+
+
+
+.service-SEO_list{
+    margin-top: 30px;
+    margin-left: 100px;
+    line-height: 24px;
+}
+.service-SEO h1{
+    text-align: center;
+    color: var(--vang);
+}
+.service-SEO h2{
+    color: var(--xam);
+    margin: 30px 0px;
+    font-size: 20px;
+}
+
+.service-SEO p{
+    max-width: 360px;
+    font-size: 16px;
+   word-spacing: 3px;
+   color: var(--font);
+}
+.service-SEO_item2,
+.service-SEO_item1{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.service-SEO_item2{
+    margin-top: 30px;
+}
+
+.lienHeDichVuSEO{
+    margin: 50px 0px;
+   text-align: center;
+}
+.lienHeDichVuSEO a{
+    text-decoration: none;
+    color: white;
+    padding: 12px 21px;
+    background-color: var(--vang) ;
+    font-weight: 600;
+    line-height: 50px;
+   
+    border-radius: 5px;
+}
+
+.hr2 hr{
+    background-color: red;
+    height: 1px;
+    border: none;
+    margin-top: 100px;
+   
+}
+
+.introduce{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 14px;
+    
+}
+.introduce ul li{
+    position: relative;
+    margin: 30px;
+}
+
+.introduce ul li a{
+   
+    color: var(--vang);
+    text-decoration: none;
+    position: absolute;
+    top: 0;
+    padding-left: 12px;
+}
+
+
+.bottom a:hover,
+.knowledge a:hover,
+.category a:hover,
+.introduce ul li a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+
+
+.knowledge span
+.category span{
+    color: var(--font);
+}
+
+.bottom a,
+.knowledge a,
+.category a{
+   
+    color: var(--vang);
+    text-decoration: none;
+    line-height: 30px;
+}
+.knowledge h3,
+.category h3{
+    text-transform: uppercase;
+    color: var(--font);
+    margin-top: 30px;
+    margin-bottom: 12px;
+}
+ .knowledge{
+     max-width: 350px;
+ }
+
+ .hr3{
+     background-color: red;
+     border: none;
+     outline: none;
+     height: 1px;
+     margin-top: 70px;
+ }
+ .bottom {
+     padding: 10px;
+       text-align: center;
+       color: var(--font);
+       font-size: 15px;
+    }
+/* body{
+    height: 5000px;
+} */
+
